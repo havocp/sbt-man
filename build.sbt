@@ -21,3 +21,4 @@ publishTo <<= (version) { version: String =>
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".sbt-credentials")
 
+libraryDependencies += "org.pegdown" % "pegdown" % "1.4.2"
